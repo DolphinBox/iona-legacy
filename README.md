@@ -1,2 +1,7 @@
 # FusionHub
-It's a hub for fusion.
+Your smart life.
+
+## Copyright
+(c) 2017 DolphinBox
+
+https://dolphinbox.net/
