@@ -26,11 +26,10 @@
         android:layout_centerHorizontal="true" />
     <ProgressBar
         style="?android:attr/progressBarStyleLarge"
-        android:progressDrawable="@drawable/progressbarstyle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:layout_below="@+id/imageView"
-        android:background ="@drawable/progressbarstyle"
         android:layout_centerHorizontal="true"
-        android:id="@+id/progressBar" />
+        android:id="@+id/progressBar"
+        android:theme="@style/Accent"/>
 </RelativeLayout>

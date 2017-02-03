@@ -7,8 +7,8 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
-    <style name="RedAccent" parent="ThemeOverlay.AppCompat.Light">
-        <item name="colorAccent">#F00</item>
+    <style name="Accent" parent="ThemeOverlay.AppCompat.Light">
+        <item name="colorAccent">#67efdf</item>
     </style>
 
 </resources>
