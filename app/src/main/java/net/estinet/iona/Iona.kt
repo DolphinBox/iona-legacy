@@ -34,11 +34,13 @@ class Iona : AppCompatActivity() {
         val myFadeInAnimation = AnimationUtils.loadAnimation(this, R.anim.fadein)
         myImageView.startAnimation(myFadeInAnimation)
 
+        Thread.sleep(5000)
+
         //Determine to launch setup or start program
         val file = File(systemDirectory, "setup.txt")
         if(!file.exists()){
             file.createNewFile()
-            SetupProcess.checkSetupPart()
+            startBoot()
         }
         else{
             var br: BufferedReader? = null
@@ -48,11 +50,26 @@ class Iona : AppCompatActivity() {
                 br = BufferedReader(fr)
                 br = BufferedReader(FileReader(file))
                 val input = br.readLine()
-                if(input == "done")
-
+                fr.close()
+                br.close()
+                if(input == "done") startBoot()
+                else startSetup()
             } catch (e: IOException) {
-                e.printStackTrace()
+                file.delete()
+                file.createNewFile()
+                try {
+                    throw SetupFileReadFailedException()
+                }
+                catch(es: SetupFileReadFailedException){
+                    es.printStackTrace()
+                }
+                startSetup()
             }
         }
     }
+}
+
+fun startBoot(){}
+fun startSetup(){
+    SetupProcess.checkSetupPart()
 }
