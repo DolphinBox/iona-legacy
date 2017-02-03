@@ -3,6 +3,7 @@ package net.estinet.iona
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.media.MediaPlayer
+import android.os.Handler
 import net.estinet.iona.setup.SetupProcess
 import android.widget.ImageView
 import java.io.File
@@ -33,39 +34,45 @@ class Iona : AppCompatActivity() {
         val myImageView = findViewById(R.id.imageView) as ImageView
         val myFadeInAnimation = AnimationUtils.loadAnimation(this, R.anim.fadein)
         myImageView.startAnimation(myFadeInAnimation)
-
+    }
+    override fun onPostCreate(savedInstanceState: Bundle?){
         Thread.sleep(5000)
 
-        //Determine to launch setup or start program
-        val file = File(systemDirectory, "setup.txt")
-        if(!file.exists()){
-            file.createNewFile()
-            startBoot()
-        }
-        else{
-            var br: BufferedReader? = null
-            var fr: FileReader? = null
-            try {
-                fr = FileReader(file)
-                br = BufferedReader(fr)
-                br = BufferedReader(FileReader(file))
-                val input = br.readLine()
-                fr.close()
-                br.close()
-                if(input == "done") startBoot()
-                else startSetup()
-            } catch (e: IOException) {
-                file.delete()
+        val handler = Handler()
+        handler.postDelayed(Runnable {
+            //Determine to launch setup or start program
+            val file = File(systemDirectory, "setup.txt")
+            if(!file.exists()){
                 file.createNewFile()
-                try {
-                    throw SetupFileReadFailedException()
-                }
-                catch(es: SetupFileReadFailedException){
-                    es.printStackTrace()
-                }
                 startSetup()
             }
-        }
+            else{
+                var br: BufferedReader? = null
+                var fr: FileReader? = null
+                try {
+                    fr = FileReader(file)
+                    br = BufferedReader(fr)
+                    br = BufferedReader(FileReader(file))
+                    val input = br.readLine()
+                    fr.close()
+                    br.close()
+                    if(input == "done") startBoot()
+                    else startSetup()
+                } catch (e: IOException) {
+                    file.delete()
+                    file.createNewFile()
+                    try {
+                        throw SetupFileReadFailedException()
+                    }
+                    catch(es: SetupFileReadFailedException){
+                        es.printStackTrace()
+                    }
+                    startSetup()
+                }
+            }
+        }, 5000)
+
+
     }
 }
 

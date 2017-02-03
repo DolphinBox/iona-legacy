@@ -11,7 +11,7 @@ import android.content.Intent
 object SetupProcess {
     fun checkSetupPart(){
         val file = File(systemDirectory, "setup.txt")
-        val intent = Intent(net.estinet.iona.appCompatActivity, SetupScreen::class.java)
+        val intent = Intent(net.estinet.iona.appCompatActivity, SetupView::class.java)
         var appCompat = net.estinet.iona.appCompatActivity
         if(appCompat != null) appCompat.startActivity(intent)
         var br: BufferedReader? = null

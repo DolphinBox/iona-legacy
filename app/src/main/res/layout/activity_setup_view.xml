@@ -26,13 +26,12 @@
         android:layout_centerHorizontal="true" />
 
     <TextView
-        android:text="TextView"
+        android:text="Welcome to Iona."
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView"
-        tools:text="Welcome to Iona."
         android:layout_alignBottom="@+id/imageView"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="27dp"
-        android:textAppearance="@android:style/TextAppearance.Material.Title" />
+        android:textAppearance="@android:style/TextAppearance.Material.Display1" />
 </RelativeLayout>

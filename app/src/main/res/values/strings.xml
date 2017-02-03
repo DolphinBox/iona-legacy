@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Iona</string>
+
+    <string name="title_activity_setup_view">SetupView</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
 </resources>
