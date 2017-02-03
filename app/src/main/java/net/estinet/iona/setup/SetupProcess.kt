@@ -1,5 +1,5 @@
 package net.estinet.iona.setup
 
-object IonaProgress{
+object SetupProcess {
     fun checkSetupPart(){}
 }
