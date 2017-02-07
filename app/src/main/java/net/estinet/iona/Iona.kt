@@ -51,7 +51,7 @@ class Iona : AppCompatActivity() {
             if(!file.exists()){
                 println("Setup file does not exist! Starting setup.")
                 file.createNewFile()
-                startSetup()
+                startSetup("")
             }
             else{
                 println("Setup file does exist. Checking setup stage...")
@@ -68,7 +68,8 @@ class Iona : AppCompatActivity() {
                     }
                     else{
                         println("Setup seems to have stopped at stage $input. Starting setup.")
-                        startSetup()
+                        if(input == null) startSetup("")
+                        else startSetup(input)
                     }
                 } catch (e: IOException) {
                     file.delete()
@@ -81,7 +82,7 @@ class Iona : AppCompatActivity() {
                         println("Setup file corrupted.")
                     }
                     println("Starting setup process after failed file read (IOException).")
-                    startSetup()
+                    startSetup("")
                 }
             }
         }, 5000)
@@ -89,6 +90,6 @@ class Iona : AppCompatActivity() {
 }
 
 fun startBoot(){}
-fun startSetup(){
-    SetupProcess.checkSetupPart()
+fun startSetup(part: String){
+    SetupProcess.checkSetupPart(part)
 }

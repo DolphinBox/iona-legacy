@@ -13,8 +13,9 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <uses-library android:name="com.google.android.things"
-            android:required="false"/>
+        <uses-library
+            android:name="com.google.android.things"
+            android:required="false" />
 
         <activity
             android:name=".Iona"
@@ -31,12 +32,13 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".Setup"></activity>
+        <activity android:name=".Setup" />
         <activity
             android:name=".setup.SetupView"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_setup_view"
-            android:theme="@style/FullscreenTheme"></activity>
+            android:theme="@style/FullscreenTheme" />
+        <activity android:name=".setup.NameView"></activity>
     </application>
 
 </manifest>
