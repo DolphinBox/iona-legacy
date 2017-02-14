@@ -1,0 +1,4 @@
+- Listeners for when a config entry doesn't exist
+- Dont die
+- dont get sued
+- dont fudge

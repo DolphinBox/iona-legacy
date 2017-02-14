@@ -24,9 +24,6 @@ class NameView : AppCompatActivity() {
     override fun onPostCreate(savedInstanceState: Bundle?) {
         super.onPostCreate(savedInstanceState)
         println("Called onPostCreate() on NameView....")
-        val myImageView = findViewById(R.id.textView) as TextView
-        val myFadeInAnimation = AnimationUtils.loadAnimation(this, R.anim.fadein)
-        myImageView.startAnimation(myFadeInAnimation)
     }
 
     private fun fadeOutAndHideImage(img: ImageView) {

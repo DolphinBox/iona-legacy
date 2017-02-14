@@ -1,16 +1,16 @@
 package net.estinet.iona
 
-import android.support.v7.app.AppCompatActivity
-import android.os.Bundle
 import android.media.MediaPlayer
+import android.os.Bundle
 import android.os.Handler
-import net.estinet.iona.setup.SetupProcess
-import android.widget.ImageView
-import java.io.File
+import android.support.v7.app.AppCompatActivity
 import android.view.animation.AnimationUtils
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
+import android.widget.ImageView
+import net.estinet.iona.setup.SetupProcess
+import java.io.BufferedReader
+import java.io.File
+import java.io.FileReader
+import java.io.IOException
 
 var systemDirectory: File = File("./")
 var appCompatActivity: AppCompatActivity? = null
