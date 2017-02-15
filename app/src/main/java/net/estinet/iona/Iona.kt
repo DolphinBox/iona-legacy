@@ -1,5 +1,7 @@
 package net.estinet.iona
 
+import android.app.Application
+import android.content.Context
 import android.media.MediaPlayer
 import android.os.Bundle
 import android.os.Handler
@@ -17,6 +19,18 @@ var appCompatActivity: AppCompatActivity? = null
 var savedInstance: Bundle? = null
 
 class Iona : AppCompatActivity() {
+
+    companion object : Application() {
+        var context: Context? = null
+        override fun onCreate() {
+            super.onCreate()
+            Iona.context = applicationContext
+        }
+
+        fun getAppContext(): Context {
+            return Iona.context!!
+        }
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
