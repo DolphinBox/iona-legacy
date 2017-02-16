@@ -1,4 +1,9 @@
+Core Ideas:
+- NAS Storage (Easy to use with Apps)
+- Voice Control (Alexa Voice Services)
+- HTPC (Chromecast-like, controlled by App)
+- Smart Home Automation.
+-----------------------------------------------------------
+Random Things we need to do:
 - Listeners for when a config entry doesn't exist
-- Dont die
-- dont get sued
-- dont fudge
+
