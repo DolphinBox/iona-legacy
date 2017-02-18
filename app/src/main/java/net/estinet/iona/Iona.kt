@@ -42,12 +42,6 @@ class Iona : AppCompatActivity() {
         appCompatActivity = this
         savedInstance = savedInstanceState
 
-        println("Playing startup sound...")
-
-        //Startup Sound
-        val mediaPlayer = MediaPlayer.create(super.getBaseContext(), R.raw.music)
-        mediaPlayer.start()
-
         println("Starting fade animation for the Iona Logo...")
 
         val myImageView = findViewById(R.id.imageView) as ImageView

@@ -7,12 +7,14 @@ import android.view.animation.AccelerateInterpolator
 import android.view.animation.AlphaAnimation
 import android.view.animation.Animation
 import android.view.animation.Animation.AnimationListener
-import android.view.animation.AnimationUtils
 import android.widget.ImageView
-import android.widget.TextView
 import net.estinet.iona.R
 
 class NameView : AppCompatActivity() {
+
+    /*
+     * Specify name for Iona.
+     */
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
