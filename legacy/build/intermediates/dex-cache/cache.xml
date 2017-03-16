@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Devin\Desktop\Flow\Iona\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ce25443208e007c2c5b93d81b08087ff51d65572">
+        <dex dex="C:\Users\Devin\Desktop\Flow\Iona\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_d1ecf752b46941c6ec8d89b4c48b6f737b8afee2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Devin\Desktop\Flow\Project\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="C:\Users\Devin\Desktop\Flow\Project\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.1.1_a6526b2ecc8b9d460adfacf6de028e92ee441ce6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Devin\Desktop\Flow\Project\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9ed25d163a72fac471e666970365f301f1471a86">
+        <dex dex="C:\Users\Devin\Desktop\Flow\Project\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_fbf850e189b7881e13ab3b7a726b5f41b24f96cb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Devin\Desktop\Flow\Project\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="31423da92aa97d5dad252618e7551ec047c088aa">
+        <dex dex="C:\Users\Devin\Desktop\Flow\Project\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_5c10fcbcf949b8b5e1b6eabb923830937cba53f0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Devin\Desktop\Flow\Iona\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="C:\Users\Devin\Desktop\Flow\Iona\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.1_f38f9976f4c50138619874c1d35f16a69e42b40f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Devin\Desktop\Flow\Project\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Devin\Desktop\Flow\Project\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.1.1_ee4b85ee4106cd81c8fc89333072772eb2493b0e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Devin\Desktop\Flow\Project\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="C:\Users\Devin\Desktop\Flow\Project\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.1.1_2d60456ad3be83d35be93b151bec4df96ad013da\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Devin\Desktop\Flow\Iona\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="C:\Users\Devin\Desktop\Flow\Iona\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.1.1_8142646ed39b87c10e492b2d6e3b6f0c1f734d9e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Devin\Desktop\Flow\Project\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="C:\Users\Devin\Desktop\Flow\Project\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.1.1_0050f760cda4e78bc8c5d3e1d1db9da66c7a05f4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Devin\Desktop\Flow\Iona\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7e39a0290d74ac542f5c63110a494fe0e4814339">
+        <dex dex="C:\Users\Devin\Desktop\Flow\Iona\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_b5ae0cfd26861d5ac1f6e0b7e42ba4d09ae8df76\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Devin\Desktop\Flow\Iona\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="C:\Users\Devin\Desktop\Flow\Iona\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.1.1_53179a8dc6353cca33774a40b8972a3afe98c767\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Devin\Desktop\Flow\Project\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="C:\Users\Devin\Desktop\Flow\Project\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.1_1fae25c2c48601876183b95972f1cbe717680aa2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Devin\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.1\support-annotations-25.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="C:\Users\Devin\Desktop\Flow\Project\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.1_aec11d82b04925415353940f6846073820bbe396\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Devin\Desktop\Flow\Project\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="C:\Users\Devin\Desktop\Flow\Project\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.1_ba7adb1a3b07b0741161f8ad6f678ae9d2169178\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Devin\Desktop\Flow\Iona\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Devin\Desktop\Flow\Iona\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.1.1_69dbd18c63bc8e8aae15ad6601c7957f2e6ba3f1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Devin\Desktop\Flow\Iona\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="C:\Users\Devin\Desktop\Flow\Iona\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.1.1_3b8515d4ee1d5af6294e0c18f4c80596de800b42\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Devin\Desktop\Flow\Iona\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="C:\Users\Devin\Desktop\Flow\Iona\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.1_97aad26f47c8eb691f469746d3cb25228c4cb6a9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Devin\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-runtime\1.0.6\3562c66f648480d3bd4f76cff722488ced13445b\kotlin-runtime-1.0.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3562c66f648480d3bd4f76cff722488ced13445b">
+        <dex dex="C:\Users\Devin\Desktop\Flow\Project\app\build\intermediates\transforms\dex\debug\folders\1000\10\kotlin-runtime-1.0.6_160cd3b5583d5cfcd82a16deccc75994b4c2bfc3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Devin\Desktop\Flow\Project\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="C:\Users\Devin\Desktop\Flow\Project\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.1_a8e339d0531bdc091602b52e21cb3b145ded1dab\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Devin\Desktop\Flow\Iona\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="C:\Users\Devin\Desktop\Flow\Iona\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.1.1_60c2dfaf4b619b5ce352aa4a9e8834deb598a8f6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Devin\Desktop\Flow\Iona\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="C:\Users\Devin\Desktop\Flow\Iona\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.1.1_e77f4cd79962a3e6e3203eaced0614e6090faaa9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Devin\Desktop\Flow\Project\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="C:\Users\Devin\Desktop\Flow\Project\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.1.1_cec2babcc6f91179cf83114d1a93b138996ae2da\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Devin\Desktop\Flow\Project\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="C:\Users\Devin\Desktop\Flow\Project\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.1.1_75f5096e07b210158a8ac6ec239d1498d415b2af\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Devin\Desktop\Flow\Iona\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="C:\Users\Devin\Desktop\Flow\Iona\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.1_e211aac130d27facb2f550a6a183edb9bb5f4609\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Devin\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib\1.0.6\d19acb6ed49b9c48228c0e5dff8071fce23be4b8\kotlin-stdlib-1.0.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d19acb6ed49b9c48228c0e5dff8071fce23be4b8">
+        <dex dex="C:\Users\Devin\Desktop\Flow\Project\app\build\intermediates\transforms\dex\debug\folders\1000\10\kotlin-stdlib-1.0.6_21ac60120fb056d49a2807f69dec9f94d091a232\classes.dex" />
+    </item>
+
+</items>
