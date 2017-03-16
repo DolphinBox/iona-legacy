@@ -18,4 +18,24 @@
         android:background="@drawable/background"
         android:scaleType="fitXY"/>
 
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:ems="10"
+        android:layout_marginBottom="203dp"
+        android:id="@+id/editText"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/editText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="62dp"
+        android:id="@+id/button" />
+
 </RelativeLayout>
