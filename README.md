@@ -5,7 +5,6 @@ alt="Iona" width="426" height="240" border="0" /></center>
 
 ## The Team.
 <dl>
-  <dt>Founders, Developers, all of the above.</dt>
   <dd>Seshan Ravikumar</dd>
   <dd>Devin Lin</dd>
 </dl>
