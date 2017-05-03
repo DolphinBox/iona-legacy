@@ -3,16 +3,14 @@
 
 #include <QMainWindow>
 #include <QPushButton>
+#include "QProgressBar"
+#include "QSlider"
 
 namespace Ui {
 class Splash;
 }
 
-<<<<<<< Updated upstream
 class Splash : public QMainWindow {
-=======
-class Splash : public QMainWindow{
->>>>>>> Stashed changes
     Q_OBJECT
 
 public:
@@ -22,6 +20,8 @@ public:
 private:
     Ui::Splash *ui;
     QPushButton *m_button;
+    QProgressBar *progressBar;
+    QSlider *slider;
 signals:
 public slots:
 };
