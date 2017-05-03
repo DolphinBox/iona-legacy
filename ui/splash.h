@@ -8,7 +8,11 @@ namespace Ui {
 class Splash;
 }
 
+<<<<<<< Updated upstream
 class Splash : public QMainWindow {
+=======
+class Splash : public QMainWindow{
+>>>>>>> Stashed changes
     Q_OBJECT
 
 public:
