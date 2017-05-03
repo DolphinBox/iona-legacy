@@ -22,7 +22,11 @@ private:
     QPushButton *m_button;
     QProgressBar *progressBar;
     QSlider *slider;
+    int m_counter;
 signals:
+    void counterReached();
+private slots:
+    void slotButtonClicked(bool checked);
 public slots:
 };
 

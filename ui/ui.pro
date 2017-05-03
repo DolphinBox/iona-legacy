@@ -25,9 +25,9 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += main.cpp\
         splash.cpp \
-    testwindow.cpp
+    reference.cpp
 
 HEADERS  += splash.h \
-    testwindow.h
+    reference.h
 
 FORMS    += splash.ui
