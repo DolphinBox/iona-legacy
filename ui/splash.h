@@ -2,13 +2,13 @@
 #define SPLASH_H
 
 #include <QMainWindow>
+#include <QPushButton>
 
 namespace Ui {
 class Splash;
 }
 
-class Splash : public QMainWindow
-{
+class Splash : public QMainWindow {
     Q_OBJECT
 
 public:
@@ -17,6 +17,9 @@ public:
 
 private:
     Ui::Splash *ui;
+    QPushButton *m_button;
+signals:
+public slots:
 };
 
 #endif // SPLASH_H

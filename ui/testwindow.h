@@ -1,11 +1,12 @@
 #ifndef TESTWINDOW_H
 #define TESTWINDOW_H
+#include <QWidget>
+class QPushButton; class TestWindow : public QWidget {
 
-
-class TestWindow
-{
 public:
-    TestWindow();
+ explicit TestWindow(QWidget *parent = 0);
+private:
+QPushButton *m_button;
 };
 
 #endif // TESTWINDOW_H
