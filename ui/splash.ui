@@ -1,6 +1,6 @@
 <ui version="4.0">
- <class>Launcher</class>
- <widget class="QMainWindow" name="Launcher" >
+ <class>Splash</class>
+ <widget class="QMainWindow" name="Splash" >
   <property name="geometry" >
    <rect>
     <x>0</x>
@@ -10,7 +10,7 @@
    </rect>
   </property>
   <property name="windowTitle" >
-   <string>Launcher</string>
+   <string>Splash</string>
   </property>
   <widget class="QMenuBar" name="menuBar" />
   <widget class="QToolBar" name="mainToolBar" />

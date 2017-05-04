@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2017-03-16T18:07:00
+# Project created by QtCreator 2017-04-25T11:43:23
 #
 #-------------------------------------------------
 
@@ -8,7 +8,7 @@ QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = iona
+TARGET = ui
 TEMPLATE = app
 
 # The following define makes your compiler emit warnings if you use
@@ -24,8 +24,10 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 
 SOURCES += main.cpp\
-        launcher.cpp
+        splash.cpp \
+    reference.cpp
 
-HEADERS  += launcher.h
+HEADERS  += splash.h \
+    reference.h
 
-FORMS    += launcher.ui
+FORMS    += splash.ui
