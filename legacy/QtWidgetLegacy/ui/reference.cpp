@@ -3,9 +3,9 @@
 #include "QWidget"
 #include "QProgressBar"
 #include "QSlider"
+#include <QApplication>
 
-Reference::Reference(QWidget *parent) : QMainWindow(parent), ui(new Ui::Reference) {
-    ui->setupUi(this);
+Reference::Reference(QWidget *parent) : QMainWindow(parent){
     m_button = new QPushButton("click me ;]", this);
 
     m_button->setGeometry(10, 10, 80, 30);
@@ -25,8 +25,8 @@ Reference::Reference(QWidget *parent) : QMainWindow(parent), ui(new Ui::Referenc
     slider->setValue(0);
     slider->setGeometry(10, 40, 180, 30);
 
-    QButtonGroup *buttonGroup = new QButtonGroup(this);
-    buttonGroup->addButton(m_button);
+    //QButtonGroup *buttonGroup = new QButtonGroup(this);
+    //buttonGroup->addButton(m_button);
     // Connection
     // This connection set the value of the progress bar
     // while the slider's value changes

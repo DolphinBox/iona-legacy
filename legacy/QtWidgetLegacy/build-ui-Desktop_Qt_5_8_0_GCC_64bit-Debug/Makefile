@@ -50,12 +50,10 @@ OBJECTS_DIR   = ./
 
 SOURCES       = ../ui/main.cpp \
 		../ui/splash.cpp \
-		../ui/testwindow.cpp \
 		../ui/reference.cpp moc_splash.cpp \
 		moc_reference.cpp
 OBJECTS       = main.o \
 		splash.o \
-		testwindow.o \
 		reference.o \
 		moc_splash.o \
 		moc_reference.o
@@ -230,10 +228,8 @@ DIST          = ../../../Qt/5.8/gcc_64/mkspecs/features/spec_pre.prf \
 		../../../Qt/5.8/gcc_64/mkspecs/features/yacc.prf \
 		../../../Qt/5.8/gcc_64/mkspecs/features/lex.prf \
 		../ui/ui.pro ../ui/splash.h \
-		../ui/testwindow.h \
 		../ui/reference.h ../ui/main.cpp \
 		../ui/splash.cpp \
-		../ui/testwindow.cpp \
 		../ui/reference.cpp
 QMAKE_TARGET  = ui
 DESTDIR       = 
@@ -610,8 +606,8 @@ distdir: FORCE
 	@test -d $(DISTDIR) || mkdir -p $(DISTDIR)
 	$(COPY_FILE) --parents $(DIST) $(DISTDIR)/
 	$(COPY_FILE) --parents ../../../Qt/5.8/gcc_64/mkspecs/features/data/dummy.cpp $(DISTDIR)/
-	$(COPY_FILE) --parents ../ui/splash.h ../ui/testwindow.h ../ui/reference.h $(DISTDIR)/
-	$(COPY_FILE) --parents ../ui/main.cpp ../ui/splash.cpp ../ui/testwindow.cpp ../ui/reference.cpp $(DISTDIR)/
+	$(COPY_FILE) --parents ../ui/splash.h ../ui/reference.h $(DISTDIR)/
+	$(COPY_FILE) --parents ../ui/main.cpp ../ui/splash.cpp ../ui/reference.cpp $(DISTDIR)/
 	$(COPY_FILE) --parents ../ui/splash.ui $(DISTDIR)/
 
 
@@ -1022,8 +1018,7 @@ main.o: ../ui/main.cpp ../ui/splash.h \
 		../../../Qt/5.8/gcc_64/include/QtCore/qeventloop.h \
 		../../../Qt/5.8/gcc_64/include/QtWidgets/qdesktopwidget.h \
 		../../../Qt/5.8/gcc_64/include/QtGui/qguiapplication.h \
-		../../../Qt/5.8/gcc_64/include/QtGui/qinputmethod.h \
-		../ui/testwindow.h
+		../../../Qt/5.8/gcc_64/include/QtGui/qinputmethod.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o main.o ../ui/main.cpp
 
 splash.o: ../ui/splash.cpp ../ui/splash.h \
@@ -1177,9 +1172,6 @@ splash.o: ../ui/splash.cpp ../ui/splash.h \
 		../../../Qt/5.8/gcc_64/include/QtWidgets/qtoolbar.h \
 		../../../Qt/5.8/gcc_64/include/QtWidgets/QWidget
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o splash.o ../ui/splash.cpp
-
-testwindow.o: ../ui/testwindow.cpp ../ui/testwindow.h
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o testwindow.o ../ui/testwindow.cpp
 
 reference.o: ../ui/reference.cpp ../ui/reference.h \
 		../../../Qt/5.8/gcc_64/include/QtWidgets/QMainWindow \

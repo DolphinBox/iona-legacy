@@ -1,14 +1,13 @@
-#include "splash.h"
-#include <QApplication>
-#include <QPushButton>
-#include "testwindow.h"
-#include <QProgressBar>
-#include <QSlider>
+#include <QGuiApplication>
+#include <QQmlApplicationEngine>
 
-int main(int argc, char *argv[]) {
-    QApplication a(argc, argv);
-    Splash w;
-    w.show();
+int main(int argc, char *argv[])
+{
+    QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
+    QGuiApplication app(argc, argv);
 
-    return a.exec();
+    QQmlApplicationEngine engine;
+    engine.load(QUrl(QLatin1String("qrc:/main.qml")));
+
+    return app.exec();
 }

@@ -19,10 +19,6 @@ public:
 
 private:
     Ui::Splash *ui;
-    QPushButton *m_button;
-    QProgressBar *progressBar;
-    QSlider *slider;
-    int m_counter;
 signals:
     void counterReached();
 private slots:
