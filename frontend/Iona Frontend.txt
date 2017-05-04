@@ -1,0 +1,4 @@
+We need some cool name for this. (Kinda like how iOS has springboard, or something like that)
+
+The front end renders what the user will see. Since the backend server with spit out HTML and JS and whatnot, it's up to the frontend to render this to the screen. The frontend also keeps a constant connection to the backend, using some type of TCP, probably Socket.IO or something.
+The rendering will be done using the X Server (it's the most stable and well documented on FreeBSD, so we will skip wayland for now). The rendering of the web content will be done with some rendering engine, possibly WebKit. Were basiclly making a web browser here.

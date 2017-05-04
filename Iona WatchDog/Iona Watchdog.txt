@@ -1,0 +1,4 @@
+Iona WatchDog.
+
+This module handles the security of iona. It is a background process that essentially authenticates anything that should happen on the system.
+Basiclly, when a process is laucnhed on iona, the Watchdog attempts to preform a handshake with the process. If the handshake is sucsessful, that means it's an authorized iona userland process. If the WatchDog cannot authenticate the process, that could mean two things. First, it could be a some background system process (BSD or whatever), and the watchdog will monitor it against a list of known processes and their behaviors. The second option is that it is a foriegn process. If this is the case, the watchdog will flag the process and kill it. This ensures only known, authorized code can be executed on iona. Becuase we know what should be running on iona at any given times, external code, such as a virus or malware, can be easily flagged and removed.
