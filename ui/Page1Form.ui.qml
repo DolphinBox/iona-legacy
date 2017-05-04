@@ -21,4 +21,11 @@ Item {
             text: qsTr("Press Me")
         }
     }
+
+    Button {
+        id: button
+        x: 270
+        y: 370
+        text: qsTr("Button")
+    }
 }
