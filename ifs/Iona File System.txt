@@ -1,2 +1,3 @@
  
 This is the Iona File System (iFS).
+It's not actually a real File System, this module just manages file structors, Permissions, and replication. It works on top of an existing File System, whatever that may end up being.
