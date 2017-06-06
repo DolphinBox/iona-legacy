@@ -1,3 +1,4 @@
+<h2>This repo is out of date! Development is currently happening on a private "NewIona" internal repo. </h2>
 <center><img src="http://dolphinbox.net/ionainstagram.png" 
 alt="Iona" width="426" height="240" border="0" /></center>
 <p>Your smart home server.</p>
